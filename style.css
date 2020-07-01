@@ -90,3 +90,15 @@ section {
   width: 300px;
   margin: auto;
 }
+
+#contact {
+  text-align: center;
+}
+
+#contact .link-button {
+  padding: 50px 100px;
+}
+
+#contact .link-button .text {
+  font-size: 12px;
+}
