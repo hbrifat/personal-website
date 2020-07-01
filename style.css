@@ -111,9 +111,11 @@ section {
   padding: 50px 100px;
 }
 
+footer {
+  background-image: url("images/footer-bg.png");
+  background-repeat: no-repeat;
+}
 footer p {
-  background-image: linear-gradient(45deg,rgb(238, 18, 154), tomato );
   text-align: center;
-  padding: 20px 40px;
 }
 
