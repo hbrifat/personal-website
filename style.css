@@ -3,6 +3,11 @@ body {
   font-family:'Roboto', sans-serif;
 }
 
+.container {
+  width: 800px;
+  margin: auto;
+}
+
 h1 {
   font-size: 35px;
   font-weight: 700;
@@ -11,8 +16,6 @@ h1 {
 #top-section {
    background-image: url("images/header-bg.png");
   background-repeat: no-repeat;
-  width: 800px;
-  margin: auto;
   margin-top: 50px;
 }
 
@@ -47,15 +50,11 @@ section {
 #biography {
   background-image: url("images/biography-bg.png");
   background-repeat: no-repeat;
-  width: 800px;
-  margin: auto;
 }
 
 #showcase {
   background-image: url("images/latest-work-bg.png");
   background-repeat: no-repeat;
-  width: 800px;
-  margin: auto;
 }
 #showcase h2 {
   text-align: center;
@@ -102,3 +101,19 @@ section {
 #contact .link-button .text {
   font-size: 12px;
 }
+
+#contact .link-button .email {
+  font-size: 20px;
+}
+
+#contact .link-button .full-text {
+  display: inline-block;
+  padding: 50px 100px;
+}
+
+footer p {
+  background-image: linear-gradient(45deg,rgb(238, 18, 154), tomato );
+  text-align: center;
+  padding: 20px 40px;
+}
+
