@@ -50,3 +50,17 @@ section {
   width: 800px;
   margin: auto;
 }
+
+#showcase {
+  width: 800px;
+  margin: auto;
+}
+#showcase h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#showcase .one-third img{
+  width: 33.33%;
+  float: left;
+}
